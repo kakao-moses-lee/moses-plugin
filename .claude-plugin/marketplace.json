@@ -1,0 +1,15 @@
+{
+  "name": "moses-marketplace",
+  "description": "moses 표준, 도구 모음",
+  "owner": {
+    "name": "moses",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "moses-rules",
+      "source": "./agents/claude/rules",
+      "description": "공유 rules 관련 도구"
+    }
+  ]
+}

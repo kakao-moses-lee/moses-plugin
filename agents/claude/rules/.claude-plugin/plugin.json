@@ -1,0 +1,20 @@
+{
+  "name": "moses-rule-plugin",
+  "description": "팀 공유 코딩 규약, 헥사고날 아키텍처, 테스트 규약을 정의하는 플러그인. Python/PySpark와 Scala/Spark 환경에서 사용됩니다. 포함: Python 코딩 규칙, Scala 코딩 규칙, 헥사고날 아키텍처 패키지 구조, pytest/AnyFunSpec 테스트 규약.",
+  "version": "1.0.0",
+  "author": {
+    "name": "moses"
+  },
+  "rules": {
+    "coding": [
+      "../../static/coding-rules/python-rules.md",
+      "../../static/coding-rules/scala-rules.md"
+    ],
+    "architecture": [
+      "../../static/architecture/hexagonal.md"
+    ],
+    "testing": [
+      "../../static/testing/testing-rules.md"
+    ]
+  }
+}
