@@ -7,20 +7,24 @@ Python/PySpark와 Scala/Spark에서 사용할 **코딩 규칙**, **아키텍처*
 
 ## 🚀 3단계 설치
 
-### Step 1️⃣: Claude Code에서 마켓플레이스 추가
+### Step 1️⃣: Claude Code CLI에서 마켓플레이스 추가
 
-Claude Code 프롬프트에서 다음 명령어 입력:
-
+1. Claude Code CLI 프롬프트에 입력:
 ```
-/marketplace add https://raw.githubusercontent.com/kakao-moses-lee/moses-plugin/main/.claude-plugin/marketplace.json
+/marketplace add
 ```
 
-또는 UI를 사용하려면:
-- 설정 (⚙️) → Plugin → "+" 버튼 → 위 URL 입력
+2. **탭** 키를 눌러 자동완성 메뉴 열기
 
+3. GUI 메뉴에서 **"Add marketplace"** 선택
+
+4. GitHub 저장소 URL 입력:
+```
+https://github.com/kakao-moses-lee/moses-plugin.git
+```
 ### Step 2️⃣: 플러그인 활성화
 
-설정 → Plugin에서 **moses-rules** 플러그인을 활성화합니다.
+/plugin 에서 **moses-rules** 플러그인을 활성화합니다.
 
 ### Step 3️⃣: 규칙 사용하기
 
