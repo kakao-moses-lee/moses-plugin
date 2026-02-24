@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "moses-rules",
-      "source": "https://github.com/kakao-moses-lee/moses-plugin/raw/main/agents/claude/rules",
+      "source": "./agents/claude/rules",
       "description": "Python/PySpark와 Scala/Spark 코딩 규약, 헥사고날 아키텍처, 테스트 규칙"
     }
   ]

@@ -13,6 +13,7 @@ Claude Code 프롬프트에서 다음 명령어 입력:
 
 ```
 /marketplace add https://raw.githubusercontent.com/kakao-moses-lee/moses-plugin/main/.claude-plugin/marketplace.json
+/marketplace add https://github.com/kakao-moses-lee/moses-plugin.git
 ```
 
 또는 UI를 사용하려면:

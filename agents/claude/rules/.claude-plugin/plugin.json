@@ -7,14 +7,14 @@
   },
   "rules": {
     "coding": [
-      "../../static/coding-rules/python-rules.md",
-      "../../static/coding-rules/scala-rules.md"
+      "https://raw.githubusercontent.com/kakao-moses-lee/moses-plugin/main/static/coding-rules/python-rules.md",
+      "https://raw.githubusercontent.com/kakao-moses-lee/moses-plugin/main/static/coding-rules/scala-rules.md"
     ],
     "architecture": [
-      "../../static/architecture/hexagonal.md"
+      "https://raw.githubusercontent.com/kakao-moses-lee/moses-plugin/main/static/architecture/hexagonal.md"
     ],
     "testing": [
-      "../../static/testing/testing-rules.md"
+      "https://raw.githubusercontent.com/kakao-moses-lee/moses-plugin/main/static/testing/testing-rules.md"
     ]
   }
 }
