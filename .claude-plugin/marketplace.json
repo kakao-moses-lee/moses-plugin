@@ -1,9 +1,13 @@
 {
+  "name": "moses-marketplace",
+  "owner": {
+    "name": "moses"
+  },
   "plugins": [
     {
       "name": "moses-rules",
       "description": "Python/PySpark와 Scala/Spark 코딩 규약, 헥사고날 아키텍처, 테스트 규칙",
-      "source": "https://github.com/kakao-moses-lee/moses-plugin/tree/main/plugins/moses-rules"
+      "source": "./plugins/moses-rules"
     }
   ]
 }
