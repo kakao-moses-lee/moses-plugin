@@ -1,0 +1,8 @@
+{
+  "name": "moses-rules",
+  "version": "1.0.0",
+  "description": "Python/PySpark와 Scala/Spark 코딩 규약, 헥사고날 아키텍처, 테스트 규칙",
+  "author": {
+    "name": "moses"
+  }
+}
