@@ -1,0 +1,50 @@
+{
+  "name": "moses-plugin",
+  "description": "팀 코딩 규약 및 아키텍처 플러그인",
+  "hooks": {
+    "user-submit": {
+      "description": "사용자 질문이 들어올 때, 관련 규칙 파일들을 자동으로 첨부",
+      "patterns": [
+        {
+          "match": ["python", "pyspark", "type hints", "dataclass", "f-string", "generator", "comprehension", "optional"],
+          "files": [
+            "plugins/moses-rules/coding-rules/python-rules.md"
+          ]
+        },
+        {
+          "match": ["scala", "spark", "val", "var", "option", "case class", "pattern matching", "dataset"],
+          "files": [
+            "plugins/moses-rules/coding-rules/scala-rules.md"
+          ]
+        },
+        {
+          "match": ["architecture", "hexagonal", "domain", "service", "port", "adapter", "package"],
+          "files": [
+            "plugins/moses-rules/architecture/hexagonal.md"
+          ]
+        },
+        {
+          "match": ["test", "testing", "pytest", "anyunspec", "given-when-then", "mock"],
+          "files": [
+            "plugins/moses-rules/testing/testing-rules.md"
+          ]
+        },
+        {
+          "match": ["rule", "규칙", "표준", "convention", "가이드"],
+          "files": [
+            "plugins/moses-rules/coding-rules/python-rules.md",
+            "plugins/moses-rules/coding-rules/scala-rules.md",
+            "plugins/moses-rules/architecture/hexagonal.md",
+            "plugins/moses-rules/testing/testing-rules.md"
+          ]
+        }
+      ]
+    }
+  },
+  "rules": {
+    "python": "plugins/moses-rules/coding-rules/python-rules.md",
+    "scala": "plugins/moses-rules/coding-rules/scala-rules.md",
+    "architecture": "plugins/moses-rules/architecture/hexagonal.md",
+    "testing": "plugins/moses-rules/testing/testing-rules.md"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "id": "python-rules",
+      "title": "Python/PySpark 코딩 규약",
+      "path": "plugins/moses-rules/coding-rules/python-rules.md",
+      "keywords": ["python", "pyspark", "type hints", "dataclass", "pydantic", "f-string", "generator", "comprehension", "optional", "exception", "명명 규칙", "함수"],
+      "description": "Python과 PySpark 개발을 위한 코딩 표준 (10가지 규칙)"
+    },
+    {
+      "id": "scala-rules",
+      "title": "Scala/Spark 코딩 규약",
+      "path": "plugins/moses-rules/coding-rules/scala-rules.md",
+      "keywords": ["scala", "spark", "val", "var", "option", "case class", "pattern matching", "dataset", "for comprehension", "함수형", "immutable"],
+      "description": "Scala와 Spark 개발을 위한 코딩 표준 (8가지 규칙)"
+    },
+    {
+      "id": "hexagonal-architecture",
+      "title": "헥사고날 아키텍처",
+      "path": "plugins/moses-rules/architecture/hexagonal.md",
+      "keywords": ["architecture", "hexagonal", "domain", "service", "port", "adapter", "package structure", "atom", "tag", "aggregation", "의존성"],
+      "description": "패키지 구조와 레이어별 역할 정의 (Domain, Service, Port, Adapter)"
+    },
+    {
+      "id": "testing-rules",
+      "title": "테스트 규약",
+      "path": "plugins/moses-rules/testing/testing-rules.md",
+      "keywords": ["test", "testing", "pytest", "anyunspec", "given-when-then", "mock", "fixture", "coverage"],
+      "description": "Python pytest와 Scala AnyFunSpec을 위한 테스트 표준"
+    }
+  ]
+}
