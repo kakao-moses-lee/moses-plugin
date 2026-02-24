@@ -1,6 +1,6 @@
 {
   "name": "moses-marketplace",
-  "description": "moses 팀 코딩 규약, 아키텍처, 테스트 표준",
+  "description": "moses 팀 코딩 표준 및 도구 모음",
   "owner": {
     "name": "moses",
     "email": ""
@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "moses-rules",
-      "source": "./agents/claude/rules",
+      "source": "./plugins/moses-rules",
       "description": "Python/PySpark와 Scala/Spark 코딩 규약, 헥사고날 아키텍처, 테스트 규칙"
     }
   ]
